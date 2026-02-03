@@ -52,6 +52,7 @@ export function Header() {
               className="bg-white text-gray-900 px-4 lg:px-6 py-2 lg:py-2.5 rounded-full flex items-center gap-2 hover:bg-gray-100 transition-colors text-sm lg:text-base"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
+              
             >
               Contact
               <ArrowRight className="w-4 h-4" />
@@ -115,8 +116,9 @@ export function Header() {
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               onClick={() => setMobileMenuOpen(false)}
+              
             >
-              Get in touch
+              Contact
               <ArrowRight className="w-4 h-4" />
             </motion.button>
           </nav>

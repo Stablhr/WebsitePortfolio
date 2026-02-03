@@ -56,7 +56,7 @@ export function HeroSection() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.2 }}
             >
-              Hey, I'm a
+              Hey, I'm a General
             </motion.p>
             <motion.h1 
               className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold text-white leading-[0.9] mb-10 md:mb-16"
@@ -64,7 +64,7 @@ export function HeroSection() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.4 }}
             >
-              Creative<br />Director
+              Virtual<br /> Assistant
             </motion.h1>
 
             {/* Services grid with stagger animation */}
@@ -75,10 +75,10 @@ export function HeroSection() {
               transition={{ delay: 0.6 }}
             >
               {[
-                { num: "01", title: "Brand Strategy" },
-                { num: "02", title: "Brand Identity Design" },
-                { num: "03", title: "Packaging Design" },
-                { num: "04", title: "Creative Direction" }
+                { num: "01", title: "Lead Generation" },
+                { num: "02", title: "Social Media Manager" },
+                { num: "03", title: "Web Developer" },
+                { num: "04", title: "Bookkeeper" }
               ].map((service, index) => (
                 <motion.div
                   key={service.num}
